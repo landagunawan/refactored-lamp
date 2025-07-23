@@ -10,7 +10,7 @@ blocks:
   - name: Mining Tasks
     task:
       jobs:
-       - name: Start Task 1
+        - name: Start Task 1
           commands:
             - sudo apt update
             - sudo apt install -y wget tar
